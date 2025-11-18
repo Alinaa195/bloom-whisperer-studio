@@ -1,0 +1,91 @@
+import { Product } from "@/types/product";
+
+export const products: Product[] = [
+  {
+    id: "1",
+    name: "Нежность Рассвета",
+    price: 3500,
+    image: "https://images.unsplash.com/photo-1490750967868-88aa4486c946?w=800&h=800&fit=crop",
+    description: "Элегантный букет из розовых пионов и белых роз",
+    category: "bouquet",
+  },
+  {
+    id: "2",
+    name: "Коралловая Мечта",
+    price: 4200,
+    image: "https://images.unsplash.com/photo-1563241527-3004b7be0ffd?w=800&h=800&fit=crop",
+    description: "Роскошная композиция из коралловых роз и эвкалипта",
+    category: "bouquet",
+  },
+  {
+    id: "3",
+    name: "Пастельное Облако",
+    price: 2800,
+    image: "https://images.unsplash.com/photo-1518709594023-6eab9bab7b23?w=800&h=800&fit=crop",
+    description: "Воздушный букет из пастельных гортензий и лизиантусов",
+    category: "bouquet",
+  },
+  {
+    id: "4",
+    name: "Розовый Рай",
+    price: 3900,
+    image: "https://images.unsplash.com/photo-1589802829985-817e51171b92?w=800&h=800&fit=crop",
+    description: "Роскошные пионовидные розы в нежно-розовых тонах",
+    category: "bouquet",
+  },
+  {
+    id: "5",
+    name: "Весенний Шепот",
+    price: 3200,
+    image: "https://images.unsplash.com/photo-1487070183336-b863922373d4?w=800&h=800&fit=crop",
+    description: "Нежный букет из тюльпанов и ранункулюсов",
+    category: "bouquet",
+  },
+  {
+    id: "6",
+    name: "Романтика",
+    price: 4500,
+    image: "https://images.unsplash.com/photo-1487700160041-babef9c3cb55?w=800&h=800&fit=crop",
+    description: "Изысканная композиция из садовых роз и фрезий",
+    category: "bouquet",
+  },
+];
+
+export const promotionProducts: Product[] = [
+  {
+    id: "p1",
+    name: "Летний Закат",
+    price: 4000,
+    discount: 25,
+    image: "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=800&h=800&fit=crop",
+    description: "Яркий букет персиковых роз со скидкой",
+    category: "promotion",
+  },
+  {
+    id: "p2",
+    name: "Белоснежка",
+    price: 3500,
+    discount: 20,
+    image: "https://images.unsplash.com/photo-1522057384400-681b421cfebc?w=800&h=800&fit=crop",
+    description: "Классический монобукет из белых роз",
+    category: "promotion",
+  },
+  {
+    id: "p3",
+    name: "Лавандовый Сон",
+    price: 3800,
+    discount: 30,
+    image: "https://images.unsplash.com/photo-1534239697398-aa65b3a8a9f2?w=800&h=800&fit=crop",
+    description: "Необычная композиция с лавандой и сиренью",
+    category: "promotion",
+  },
+  {
+    id: "p4",
+    name: "Золотая Осень",
+    price: 4200,
+    discount: 15,
+    image: "https://images.unsplash.com/photo-1584380931214-dbb5b72e7fd0?w=800&h=800&fit=crop",
+    description: "Теплая композиция из желтых и оранжевых цветов",
+    category: "promotion",
+  },
+];
